@@ -20,5 +20,5 @@ dtree = DecisionTreeClassifier()
 dtree.fit(x, y)
 
 plt.figure(figsize=(8, 6))
-tree.plot_tree(dtree, feature_names=features, filled=True)
+tree.plot_tree(dtree, feature_names=features, class_names=['NO', 'YES'], filled=True)
 plt.show()
